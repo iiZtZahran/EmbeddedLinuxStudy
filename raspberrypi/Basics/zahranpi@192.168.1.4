@@ -1,0 +1,36 @@
+## connecting to host 
+``` cpp 
+ssh zahranpi.local 
+ssh zahranpi@ipaddress 
+```
+
+## configure target 
+``` cpp
+sudo raspi-config  
+```
+## ssh without password 
+cat ~/.ssh/ 
+ls .ssh/ 
+
+## get ip 
+```cpp
+ipscan
+sudo nmap -sn 192.168.1.0/24
+``` 
+## on vscode open remote ssh 
+-it produce .vscode server on target 
+
+## check rasp pi temp 
+``` cpp
+vcgencmd measure_temp
+```
+## enable gui apps display for raspberry pi 
+``` cpp 
+nano /etc/ssh/sshd_config
+//x11forwarding yes 
+```
+## share files between host and target 
+``` cpp 
+scp pi@192.168.1.4:/Desktop . //move from rasp to host current directory 
+```
+

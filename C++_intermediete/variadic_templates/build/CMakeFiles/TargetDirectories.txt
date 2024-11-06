@@ -1,0 +1,3 @@
+/home/zahran/Desktop/EmbeddedLinuxStudy/C++_intermediete/requirements/build/CMakeFiles/hellobinary.dir
+/home/zahran/Desktop/EmbeddedLinuxStudy/C++_intermediete/requirements/build/CMakeFiles/edit_cache.dir
+/home/zahran/Desktop/EmbeddedLinuxStudy/C++_intermediete/requirements/build/CMakeFiles/rebuild_cache.dir

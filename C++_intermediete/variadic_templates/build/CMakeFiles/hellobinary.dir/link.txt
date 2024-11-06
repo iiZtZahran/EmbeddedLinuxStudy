@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/hellobinary.dir/src/main.cpp.o CMakeFiles/hellobinary.dir/utils/math.cpp.o -o hellobinary 
